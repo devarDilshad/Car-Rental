@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff4d30;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f86a55;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+/* backgroun image with shadow and black text */
+.book-content__box {
+  background-color: #FFF;
+  background-image: url('./assets/book-bg.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,.1);
+  color: #010103;
+}
+
+/* FAQ BG img */
+.faq-bg {
+  background-image: url('./assets/mini.png');
+  background-position: 0 70%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding: 8rem 0;
+}
+
+/* CTA BG img */
+.cta-bg {
+  background-image: url('./assets/bg02.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
